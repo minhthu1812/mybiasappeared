@@ -1,0 +1,38 @@
+
+.img{
+  text-align: center;
+}
+
+.chapter-content img {
+  max-width: 100% !important;
+  display: inherit;
+  margin: 0 auto;
+}
+.lazyloaded {
+  opacity: 1;
+  transition: opacity 1000ms;
+}
+a {
+  color: #4b4b4b;
+  text-decoration: none;
+}
+/* a.btn.btn-main{
+  margin-left: 572px;
+} */
+/* button.btn.btn-main.disabled{
+  margin-left: 15px;
+} */
+.btn {
+  display: inline-block;
+  padding: .5rem 1rem;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  line-height: 1.4rem;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  touch-action: manipulation;
+  vertical-align: middle;
+  user-select: none;
+  background-image: none;
+}
